@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29814.53
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS and Event Sourcing", "CQRS and Event Sourcing\CQRS and Event Sourcing.csproj", "{2EC11CA1-52D9-40BA-BFF6-427AF470BA85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS and Event Sourcing", "CQRS and Event Sourcing\CQRS and Event Sourcing.csproj", "{2EC11CA1-52D9-40BA-BFF6-427AF470BA85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationManager", "JWTAuthenticationManager\JWTAuthenticationManager.csproj", "{413F05D7-588A-4FBC-8968-F3B4ED1A409C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2EC11CA1-52D9-40BA-BFF6-427AF470BA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EC11CA1-52D9-40BA-BFF6-427AF470BA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EC11CA1-52D9-40BA-BFF6-427AF470BA85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413F05D7-588A-4FBC-8968-F3B4ED1A409C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413F05D7-588A-4FBC-8968-F3B4ED1A409C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413F05D7-588A-4FBC-8968-F3B4ED1A409C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413F05D7-588A-4FBC-8968-F3B4ED1A409C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

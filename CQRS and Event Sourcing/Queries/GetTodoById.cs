@@ -18,6 +18,7 @@ namespace CQRS_and_Event_Sourcing.Queries
         public int Id { get; }
     }
 
+
     public class Response
     {
         public Response(int id, string name, bool complete)

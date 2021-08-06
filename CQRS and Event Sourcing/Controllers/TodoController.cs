@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using CQRS_and_Event_Sourcing.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using static CQRS_and_Event_Sourcing.Commands.AddTodo;
 
 namespace CQRS_and_Event_Sourcing.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class TodoController : ControllerBase
